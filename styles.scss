@@ -1,0 +1,61 @@
+//01Settings, colors values, breakpoints resolution, 
+
+@import './styles/01settings/settings-breakpoints.scss';
+@import './styles/01settings/settings-colors.scss';
+
+
+//02 tools, mixins and functions
+
+//03 generic, normalizer for all browsers 
+
+@import './styles/03generic/generic-normalize.scss';
+
+//04 elements, stilirization html buttons a h
+
+@import './styles/04elements/settings-typography.scss';
+
+//05 objects, class-based selectors, parameters of container
+
+@import './styles/05objects/objects-containers.scss';
+@import './styles/05objects/object-main-wraper.scss';
+@import './styles/05objects/object-teacher-card.scss';
+@import './styles/05objects/object-hidden-card-image.scss';
+
+//06 components, specific UI components 
+
+@import './styles/06components/component-header-ul.scss';
+@import './styles/06components/components-button.scss';
+@import './styles/06components/components-footer-image.scss';
+@import './styles/06components/components-footer-navigation.scss';
+@import './styles/05objects/object-wraper.scss';
+@import './styles/06components/component-footer-icons-container.scss';
+@import './styles/06components/component-main-section-blue.scss';
+@import './styles/06components/component-section-blue-label.scss';
+@import './styles/06components/component-section-blue-heading.scss';
+@import './styles/06components/component-main-section-enroll.scss';
+@import './styles/06components/component-main-section-info.scss';
+@import './styles/06components/component-circle.scss';
+@import './styles/06components/component-main-section-enroll-dots.scss';
+@import './styles/06components/component-main-section-yellow.scss';
+@import './styles/06components/component-main-section-sertificate.scss';
+@import './styles/06components/component-trainers-main-yellow-section.scss';
+@import './styles/06components/component-trainers-main-primary-teachers.scss';
+@import './styles/06components/component-trainers-main-teachers-cards.scss';
+@import './styles/06components/component-trainers-main-blue-section.scss';
+@import './styles/06components/component-main-contacts-map.scss';
+@import './styles/06components/component-main-contacts-info-card.scss';
+@import './styles/06components/component-main-contacts-message-section.scss';
+@import './styles/06components/component-main-contacts-pink-info.scss';
+
+//07 utilities, utilities and helper classes 
+//with ability to override anything, hide helper class
+
+@import './styles/07utilities/utilities-lincs.scss';
+@import './styles/07utilities/utilities-lists.scss';
+@import './styles/07utilities/utilities-footer-paragraph.scss';
+@import './styles/07utilities/utilities-icons.scss';
+@import './styles/07utilities/utilities-enroll-paragraph.scss';
+@import './styles/07utilities/utilities-options-elements.scss';
+@import './styles/07utilities/utilities-notebook-image.scss';
+@import './styles/07utilities/utilities-special-a.scss';
+@import './styles/07utilities/utilities-span.scss';

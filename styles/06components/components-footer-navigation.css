@@ -1,0 +1,12 @@
+.c-footer-navigation {
+  z-index: 1;
+}
+
+.c-footer-navigation a {
+  color: #E6E6E6;
+}
+
+.c-footer-navigation--wraper {
+  display: grid;
+  grid-template-columns: 167px 170px 193px 216px 217px;
+}

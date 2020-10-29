@@ -1,0 +1,16 @@
+@import '../01settings/settings-colors.scss';
+
+.u-enroll-paragraph {
+    color: $gray-700;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    &-second {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: $secondary-800;
+    }
+}

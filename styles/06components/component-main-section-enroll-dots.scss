@@ -1,0 +1,27 @@
+@import '../01settings/settings-colors.scss';
+
+.c-main-section-enroll-dots {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 7px;
+
+    &-blue-first {
+        background-color: $blue-400;
+        box-shadow: none;
+    }
+
+    &-blue {
+        background-color: $blue-400;
+    }
+
+    &-blue-white {
+        background: linear-gradient(180deg, $blue-400 50%, $white 50%);;
+    }
+
+    &-white-last {
+        background-color: $white;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.14), inset 0px 0px 0px rgba(0, 0, 0, 0.12), inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+
+    }
+}

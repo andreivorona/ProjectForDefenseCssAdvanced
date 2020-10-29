@@ -1,0 +1,6 @@
+.c-header-ul {
+  display: grid;
+  grid-template-columns: 97px 88px 141px 60px 96px 32px 82px;
+  column-gap: 24px;
+  align-items: center;
+}

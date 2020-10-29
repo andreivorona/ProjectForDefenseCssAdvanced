@@ -1,0 +1,71 @@
+@import '../01settings/settings-colors.scss';
+
+.c-main-contacts-pink-info {
+    padding-left: 75px;
+    padding-right: 76px;
+    padding-bottom: 96px;
+    display: grid;
+    column-gap: 32px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: $secondary-50;
+
+}
+
+.c-main-contacts-pink-info-big-header {
+    margin-top: 96px;
+
+    h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        width: 410px;
+        color: $primary-300;
+    }
+
+    h4 {
+        margin: 0;
+        margin-bottom: 18px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: $primary-300;
+    }
+
+    p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: $gray-700;
+    }
+}
+
+.c-main-contacts-pink-info-small-header {
+    margin-top: 180px;
+
+    h4 {
+        margin: 0;
+        margin-bottom: 18px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        color: $primary-300;
+    }
+
+    p {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: $gray-700;
+    }
+}

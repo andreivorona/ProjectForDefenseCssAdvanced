@@ -1,0 +1,9 @@
+.c-main-section-blue {
+  background-color: #44A9F8;
+  display: grid;
+  grid-template-rows: 24px 88px;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 24px;
+  padding-bottom: 104px;
+}

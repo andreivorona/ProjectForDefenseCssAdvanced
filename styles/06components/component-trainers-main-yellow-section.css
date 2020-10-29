@@ -1,0 +1,28 @@
+.c-trainers-main-yellow-section {
+  height: 256px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #FFB402;
+}
+
+.c-trainers-main-yellow-section h1 {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.c-trainers-main-yellow-section p {
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  width: 850px;
+  margin: 0 auto;
+}

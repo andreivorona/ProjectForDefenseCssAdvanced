@@ -1,0 +1,29 @@
+.o-hidden-card-image {
+  position: absolute;
+  bottom: -7px;
+  left: 35px;
+  opacity: 0;
+}
+
+.o-hidden-card-image i {
+  position: absolute;
+  left: 74px;
+  top: 42px;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.o-hidden-card-image p {
+  position: relative;
+  bottom: 64px;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.o-hidden-card-image:hover {
+  opacity: 1;
+}

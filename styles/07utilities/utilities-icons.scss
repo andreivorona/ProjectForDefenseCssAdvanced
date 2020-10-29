@@ -1,0 +1,28 @@
+.fa {
+    font-size: 30px;
+    margin-right: 20px;
+    color: $gray-200;
+    margin-bottom: 48px;
+
+    &:hover {
+        cursor: pointer;
+        color: $primary-300;
+    }
+}
+
+.fa-facebook {
+    border-radius: 50%;
+    border: 0px solid white;
+    font-size: 26px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #565656;
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 0;
+    margin-right: 14px;
+}
+
+.fa-instagram {
+    font-size: 28px;
+}

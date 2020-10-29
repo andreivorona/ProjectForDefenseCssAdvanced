@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  color: #565656;
+  transition: color 1s ease;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #FF9100;
+}
+
+.c-footer-links {
+  font-size: 16px;
+}
+
+.c-footer-links:hover {
+  cursor: pointer;
+  color: #41BEAD;
+}
+
+.c-footer-links-header {
+  font-size: 18px;
+}
+
+.c-footer-links-header:hover {
+  cursor: pointer;
+  color: #41BEAD;
+}
+
+.empty-header {
+  margin-top: 52px;
+}
+
+.u-footer-headers {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}

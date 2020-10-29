@@ -1,0 +1,1280 @@
+/*! modern-normalize v0.7.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/*
+Document
+========
+*/
+/**
+Use a better box model (opinionated).
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/**
+Use a more readable tab size (opinionated).
+*/
+:root {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+
+/**
+1. Correct the line height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+*/
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+Sections
+========
+*/
+/**
+Remove the margin in all browsers.
+*/
+body {
+  margin: 0;
+}
+
+/**
+Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+*/
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/*
+Grouping content
+================
+*/
+/**
+Add the correct height in Firefox.
+*/
+hr {
+  height: 0;
+}
+
+/*
+Text-level semantics
+====================
+*/
+/**
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+abbr[title] {
+  text-decoration: underline dotted;
+}
+
+/**
+Add the correct font weight in Edge and Safari.
+*/
+b, strong {
+  font-weight: bolder;
+}
+
+/**
+1. Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
+2. Correct the odd 'em' font sizing in all browsers.
+*/
+code, kbd, samp, pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+Add the correct font size in all browsers.
+*/
+small {
+  font-size: 80%;
+}
+
+/**
+Prevent 'sub' and 'sup' elements from affecting the line height in all browsers.
+*/
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+Forms
+=====
+*/
+/**
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+*/
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+Remove the inheritance of text transform in Edge and Firefox.
+1. Remove the inheritance of text transform in Firefox.
+*/
+button, select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+Correct the inability to style clickable types in iOS and Safari.
+*/
+button, [type='button'], [type='reset'], [type='submit'] {
+  -webkit-appearance: button;
+}
+
+/**
+Remove the inner border and padding in Firefox.
+*/
+button::-moz-focus-inner, [type='button']::-moz-focus-inner, [type='reset']::-moz-focus-inner, [type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+Restore the focus styles unset by the previous rule.
+*/
+button:-moz-focusring, [type='button']:-moz-focusring, [type='reset']:-moz-focusring, [type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+Remove the padding so developers are not caught out when they zero out 'fieldset' elements in all browsers.
+*/
+legend {
+  padding: 0;
+}
+
+/**
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+progress {
+  vertical-align: baseline;
+}
+
+/**
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+[type='number']::-webkit-inner-spin-button, [type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to 'inherit' in Safari.
+*/
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Interactive
+===========
+*/
+/*
+Add the correct display in Chrome and Safari.
+*/
+summary {
+  display: list-item;
+}
+
+html, * {
+  font-family: 'Lato', sans-serif;
+}
+
+a, button {
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+a {
+  font-weight: 600;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+button {
+  font-weight: 800;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.o-all-elements {
+  width: 100wv;
+  display: grid;
+  grid-template-rows: 74px 1fr 312px;
+  background-color: #ffffff;
+}
+
+.o-header-container {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.o-header-section-images {
+  display: grid;
+  grid-template-columns: 12px 138px;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.o-footer-container {
+  background-color: #565656;
+  border-top: 12px solid #919191;
+  z-index: 1;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.o-main-wraper {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.o-main-wraper.enroll {
+  position: relative;
+  bottom: 58px;
+}
+
+.o-main-wrapper-secondary {
+  margin-left: 188px;
+  margin-right: 188px;
+}
+
+.o-teacher-card {
+  text-align: center;
+  width: 242px;
+  display: grid;
+  grid-template-rows: 188px 1fr;
+}
+
+.o-teacher-card header {
+  position: relative;
+}
+
+.o-teacher-card h4 {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41BEAD;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.o-teacher-card p {
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B2B2B2;
+}
+
+.o-hidden-card-image {
+  position: absolute;
+  bottom: -7px;
+  left: 35px;
+  opacity: 0;
+}
+
+.o-hidden-card-image i {
+  position: absolute;
+  left: 74px;
+  top: 42px;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.o-hidden-card-image p {
+  position: relative;
+  bottom: 64px;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.o-hidden-card-image:hover {
+  opacity: 1;
+}
+
+.c-header-ul {
+  display: grid;
+  grid-template-columns: 97px 88px 141px 60px 96px 32px 82px;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.c-btn {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  padding: 10px 22px;
+  text-transform: uppercase;
+  background: #FF9100;
+  color: #ffffff;
+  transition: box-shadow 1s ease;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.c-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.c-btn.secondary {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c-footer-image {
+  position: absolute;
+  left: 75px;
+  top: -103px;
+}
+
+.c-footer-navigation {
+  z-index: 1;
+}
+
+.c-footer-navigation a {
+  color: #E6E6E6;
+}
+
+.c-footer-navigation--wraper {
+  display: grid;
+  grid-template-columns: 167px 170px 193px 216px 217px;
+}
+
+.o-wraper {
+  margin-left: 75px;
+  margin-right: 75px;
+  display: grid;
+  grid-template-columns: 150px 784px;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.o-wraper--footer {
+  margin-left: 311px;
+  margin-right: 75px;
+  justify-content: space-between;
+}
+
+.c-footer-icons-container {
+  height: 29px;
+  margin-top: 24px;
+}
+
+.c-main-section-blue {
+  background-color: #44A9F8;
+  display: grid;
+  grid-template-rows: 24px 88px;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 24px;
+  padding-bottom: 104px;
+}
+
+.c-section-blue-label {
+  justify-self: center;
+  color: #ffffff;
+  background-color: #FFC20A;
+  width: 75px;
+  padding: 5px 8px;
+  border: 0px solid #FFC20A;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.c-section-blue-heading {
+  text-align: center;
+  color: white;
+  width: 644px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.c-main-section-enroll {
+  display: grid;
+  grid-template-columns: 1fr 12px 152px 1fr 1fr 1fr;
+  grid-template-rows: 114px;
+  align-items: center;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  gap: 32px;
+  background-color: #ffffff;
+}
+
+.c-main-section-enroll-button {
+  margin-left: 64px;
+}
+
+.c-main-section-enroll-info {
+  display: grid;
+  grid-template-rows: 24px;
+  grid-template-columns: 52px 132px;
+  align-items: center;
+  border-right: 2px solid #F1F1F1;
+}
+
+.c-main-section-enroll-info-last {
+  display: grid;
+  grid-template-rows: 24px;
+  grid-template-columns: 52px 132px;
+  align-items: center;
+}
+
+.c-main-section-info {
+  margin-bottom: 98px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 739px 440px;
+  justify-content: space-between;
+}
+
+.c-main-section-info-paragraph {
+  margin-top: 36px;
+  color: #565656;
+  font-family: Lato;
+}
+
+.c-main-section-info-images {
+  position: relative;
+  margin-top: 75px;
+  height: 248px;
+}
+
+.c-main-section-info-image-second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c-main-section-info-questions {
+  display: grid;
+  justify-content: space-between;
+  grid-template-rows: 202px;
+  grid-template-columns: 52% 38%;
+  margin-bottom: 64px;
+}
+
+.c-main-section-info-questions-people {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 17% 1fr;
+  padding-right: 88px;
+  border-right: 10px dotted #FFECB3;
+}
+
+.c-main-section-info-questions-people h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  color: #565656;
+}
+
+.c-main-section-info-questions-people p {
+  color: #565656;
+}
+
+.c-main-section-info-questions-puzzle img {
+  position: relative;
+  bottom: 42px;
+}
+
+.c-main-section-info-questions-puzzle section {
+  margin-left: 64px;
+  position: relative;
+  bottom: 42px;
+}
+
+.c-main-section-info-questions-puzzle h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  color: #565656;
+}
+
+.c-main-section-info-questions-puzzle p {
+  color: #565656;
+}
+
+.c-circle {
+  /* Create the circle */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  /* Halve the circle */
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  /* Rotate the circle */
+  transform: rotate(0deg);
+  box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.14), inset 0px 2px 2px rgba(0, 0, 0, 0.12), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.c-main-section-enroll-dots {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 7px;
+}
+
+.c-main-section-enroll-dots-blue-first {
+  background-color: #44A9F8;
+  box-shadow: none;
+}
+
+.c-main-section-enroll-dots-blue {
+  background-color: #44A9F8;
+}
+
+.c-main-section-enroll-dots-blue-white {
+  background: linear-gradient(180deg, #44A9F8 50%, #ffffff 50%);
+}
+
+.c-main-section-enroll-dots-white-last {
+  background-color: #ffffff;
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.14), inset 0px 0px 0px rgba(0, 0, 0, 0.12), inset 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.c-main-section-yellow {
+  background-color: #FF7100;
+  padding-top: 66px;
+  padding-bottom: 64px;
+}
+
+.c-main-section-yellow-elements {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 32px 1fr 1fr;
+  column-gap: 31px;
+}
+
+.c-main-section-yellow-elements-input-fields {
+  display: grid;
+  row-gap: 16px;
+  grid-template-rows: 50px 50px 50px 50px;
+}
+
+.c-main-section-yellow-elements-input-fields-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 676px 1fr;
+}
+
+.c-main-section-yellow-elements-input-fields-container img {
+  position: relative;
+  top: 20px;
+  right: 30px;
+}
+
+.c-main-section-yellow-elements-information h2 {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #565656;
+}
+
+.c-main-section-yellow-elements-information p {
+  margin: 0;
+  margin-bottom: 24px;
+  color: #565656;
+}
+
+.c-main-section-yellow-elements-information h4 {
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #565656;
+}
+
+.c-yellow-section-top-dots {
+  border-top: 10px dotted #ffffff;
+  position: relative;
+  top: 5px;
+}
+
+.c-yellow-section-bottom-dots {
+  border-bottom: 10px dotted #ffffff;
+  position: relative;
+  bottom: 5px;
+}
+
+.c-main-section-white-sertificate-info {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 32px 1fr 1fr;
+  column-gap: 36px;
+}
+
+.c-main-section-white-sertificate-info-up-image {
+  margin-top: 141px;
+}
+
+.c-main-section-white-sertificate-info-middle {
+  margin-top: 141px;
+}
+
+.c-main-section-white-sertificate-info-middle-h2 {
+  color: #565656;
+  margin: 0;
+  margin-bottom: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.c-main-section-white-sertificate-info-middle-p {
+  color: #565656;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c-main-section-white-sertificate-info-foot-image {
+  margin-top: 20px;
+  margin-left: 151px;
+}
+
+.c-main-section-white-sertificate-info-foot-image p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  text-align: center;
+  width: 363px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #565656;
+}
+
+.c-main-section-white-sertificate-info-down {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 148px;
+  column-gap: 37px;
+  margin-top: 108px;
+}
+
+.c-main-section-white-sertificate-info-down-sections {
+  column-gap: 36px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 32px 1fr;
+}
+
+.c-main-section-white-sertificate-info-down-sections-first {
+  column-gap: 36px;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 32px 500px;
+  border-right: 10px dotted #FFECB3;
+  padding-right: 32px;
+}
+
+.c-trainers-main-yellow-section {
+  height: 256px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #FFB402;
+}
+
+.c-trainers-main-yellow-section h1 {
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.c-trainers-main-yellow-section p {
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  width: 850px;
+  margin: 0 auto;
+}
+
+.c-trainers-main-primary-teachers {
+  display: grid;
+  column-gap: 32px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 96px;
+  margin-bottom: 104px;
+  border-bottom: 10px dotted #DFF4F1;
+  padding-bottom: 98px;
+}
+
+.c-trainers-main-primary-teachers-card {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 175px 375px;
+  column-gap: 30px;
+}
+
+.c-trainers-main-primary-teachers-card img {
+  width: 175px;
+}
+
+.c-trainers-main-primary-teachers-card h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41BEAD;
+}
+
+.c-trainers-main-primary-teachers-card p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;
+}
+
+.c-trainers-main-primary-teachers-card .c-opacity-paragraph {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B2B2B2;
+}
+
+.c-trainers-main-teachers-cards {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  row-gap: 72px;
+  margin-bottom: 128px;
+}
+
+.c-trainers-main-blue-section {
+  background-color: #66B9F8;
+  border-top: 12px solid #92CDFB;
+  text-align: center;
+}
+
+.c-trainers-main-blue-section h1 {
+  margin: 0;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.c-trainers-main-blue-section p {
+  margin: 0;
+  margin-bottom: 48px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.c-trainers-main-blue-section-form {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 115px;
+  column-gap: 32px;
+  margin-left: 245px;
+  margin-right: 259px;
+  padding-bottom: 106px;
+}
+
+.c-trainers-main-blue-section-form input {
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #66B9F8;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding-left: 16px;
+}
+
+.c-main-contacts-map img {
+  height: 500px;
+  width: 100%;
+}
+
+.c-main-contacts-info-card {
+  margin-left: 75px;
+  border-radius: 12px;
+  width: 519px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.14), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 310px;
+  background-color: #ffffff;
+}
+
+.c-main-contacts-info-card button {
+  width: 240px;
+  margin-bottom: 32px;
+  position: relative;
+  left: 140px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  color: #FF9100;
+  border: 1px solid #FF9100;
+  box-shadow: none;
+}
+
+.c-main-contacts-info-card-header {
+  margin-left: 32px;
+}
+
+.c-main-contacts-info-card-header h4 {
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41BEAD;
+}
+
+.c-main-contacts-info-card-header p {
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;
+}
+
+.c-main-contacts-info-card-header-down {
+  margin-left: 24px;
+  margin-right: 32px;
+}
+
+.c-main-contacts-info-card-header-down h4 {
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #41BEAD;
+}
+
+.c-main-contacts-info-card-header-down p {
+  margin: 0;
+  margin-bottom: 12px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;
+}
+
+.c-main-contacts-info-card-header-down-work-time {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.c-main-contacts-info-card-header-down-work-time time {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FF9100;
+}
+
+.c-main-contacts-message-section {
+  margin-left: 295px;
+  margin-top: 180px;
+  margin-bottom: 96px;
+  margin-right: 295px;
+  display: grid;
+  grid-template-rows: 24px 1fr 48px;
+}
+
+.c-main-contacts-message-section button {
+  justify-self: start;
+  width: 140px;
+}
+
+.c-main-contacts-message-section h2 {
+  justify-self: center;
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #41BEAD;
+}
+
+.c-main-contacts-message-section-input-fields textarea {
+  padding: 16px;
+  width: 100%;
+  color: #919191;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.c-main-contacts-message-section-input-fields input {
+  padding: 16px;
+  border: 1px solid #919191;
+  color: #919191;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.c-main-contacts-message-section-input-fields div {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 32px;
+}
+
+.c-main-contacts-pink-info {
+  padding-left: 75px;
+  padding-right: 76px;
+  padding-bottom: 96px;
+  display: grid;
+  column-gap: 32px;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #FFF8E1;
+}
+
+.c-main-contacts-pink-info-big-header {
+  margin-top: 96px;
+}
+
+.c-main-contacts-pink-info-big-header h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  width: 410px;
+  color: #41BEAD;
+}
+
+.c-main-contacts-pink-info-big-header h4 {
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #41BEAD;
+}
+
+.c-main-contacts-pink-info-big-header p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;
+}
+
+.c-main-contacts-pink-info-small-header {
+  margin-top: 180px;
+}
+
+.c-main-contacts-pink-info-small-header h4 {
+  margin: 0;
+  margin-bottom: 18px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #41BEAD;
+}
+
+.c-main-contacts-pink-info-small-header p {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #565656;
+}
+
+a {
+  text-decoration: none;
+  color: #565656;
+  transition: color 1s ease;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #FF9100;
+}
+
+.c-footer-links {
+  font-size: 16px;
+}
+
+.c-footer-links:hover {
+  cursor: pointer;
+  color: #41BEAD;
+}
+
+.c-footer-links-header {
+  font-size: 18px;
+}
+
+.c-footer-links-header:hover {
+  cursor: pointer;
+  color: #41BEAD;
+}
+
+.empty-header {
+  margin-top: 52px;
+}
+
+.u-footer-headers {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+.u-footer-list-items {
+  margin-bottom: 12px;
+}
+
+.u-footer-paragraf {
+  margin-top: 48px;
+  font-size: 15px;
+  opacity: 0.7;
+  color: #919191;
+}
+
+.fa {
+  font-size: 30px;
+  margin-right: 20px;
+  color: #E6E6E6;
+  margin-bottom: 48px;
+}
+
+.fa:hover {
+  cursor: pointer;
+  color: #41BEAD;
+}
+
+.fa-facebook {
+  border-radius: 50%;
+  border: 0px solid white;
+  font-size: 26px;
+  padding-left: 9px;
+  padding-right: 9px;
+  color: #565656;
+  background-color: white;
+  padding-top: 6px;
+  padding-bottom: 0;
+  margin-right: 14px;
+}
+
+.fa-instagram {
+  font-size: 28px;
+}
+
+.u-enroll-paragraph {
+  color: #565656;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.u-enroll-paragraph-second {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FF9100;
+}
+
+#courses {
+  background: #ffffff;
+  border-radius: 6px;
+  border: none;
+  color: #565656;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
+  appearance: none;
+}
+
+.u-notebook-image {
+  margin-left: 61px;
+  margin-top: 200px;
+}
+
+.u-special-a {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FF9100;
+  text-decoration: underline;
+}
+
+span {
+  color: #3d3d3d;
+}

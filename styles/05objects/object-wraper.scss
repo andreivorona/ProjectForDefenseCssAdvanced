@@ -1,0 +1,15 @@
+.o-wraper {
+    margin-left: 75px;
+    margin-right: 75px;
+    display: grid;
+    grid-template-columns: 150px 784px;
+    justify-content: space-between;
+    z-index: 1;
+
+
+    &--footer {
+        margin-left: 311px;
+        margin-right: 75px;
+        justify-content: space-between;
+    }
+}

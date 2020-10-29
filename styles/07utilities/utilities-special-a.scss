@@ -1,0 +1,11 @@
+@import '../01settings/settings-colors.scss';
+
+.u-special-a {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: $secondary-color;
+    text-decoration: underline;
+}

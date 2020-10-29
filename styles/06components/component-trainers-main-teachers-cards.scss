@@ -1,0 +1,8 @@
+.c-trainers-main-teachers-cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    row-gap: 72px;
+    margin-bottom: 128px;
+}

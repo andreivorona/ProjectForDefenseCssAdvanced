@@ -1,0 +1,16 @@
+@import '../01settings/settings-colors.scss';
+
+#courses {
+    background: $white;
+    border-radius: 6px;
+    border: none;
+    color: $gray-700;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 14px; 
+    padding-right: 14px;
+    appearance: none;
+}

@@ -1,0 +1,31 @@
+@import '../01settings/settings-colors.scss';
+
+.o-hidden-card-image {
+    position: absolute;
+    bottom: -7px;
+    left: 35px;
+    opacity: 0;
+
+    i {
+        position: absolute;
+        left: 74px;
+        top: 42px;
+        font-size: 64px;
+        color: $white;
+    }
+
+    p {
+        position: relative;
+        bottom: 64px;
+        color: $white;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}

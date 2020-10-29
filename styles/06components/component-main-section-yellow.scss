@@ -1,0 +1,72 @@
+@import '../01settings/settings-colors.scss';
+
+.c-main-section-yellow {
+    background-color: $Secondary-900;
+    padding-top: 66px;
+    padding-bottom: 64px;
+}
+
+.c-main-section-yellow-elements {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 32px 1fr 1fr;
+    column-gap: 31px;
+
+    &-input-fields {
+        display: grid;
+        row-gap: 16px;
+        grid-template-rows: 50px 50px 50px 50px;
+    }
+
+}
+
+.c-main-section-yellow-elements-input-fields-container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 676px 1fr;
+
+    img {
+        position: relative;
+        top: 20px;
+        right: 30px;
+    }
+}
+
+.c-main-section-yellow-elements-information {
+    h2 {
+        margin: 0;
+        margin-bottom: 24px;
+        font-size: 30px;
+        line-height: 36px;
+        color: $gray-700;
+    }
+
+    p {
+        margin: 0;
+        margin-bottom: 24px;
+        
+        color: $gray-700;
+    }
+
+    h4 {
+        margin: 0;
+        margin-bottom: 16px;
+        font-family: Lato;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: $gray-700;
+    }
+}
+
+.c-yellow-section-top-dots {
+    border-top: 10px dotted $white;
+    position: relative;
+    top: 5px;
+}
+
+.c-yellow-section-bottom-dots {
+    border-bottom: 10px dotted $white;
+    position: relative;
+    bottom: 5px;
+}

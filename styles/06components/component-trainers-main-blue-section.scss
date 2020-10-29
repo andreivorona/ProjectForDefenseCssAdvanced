@@ -1,0 +1,54 @@
+@import '../01settings/settings-colors.scss';
+
+.c-trainers-main-blue-section {
+    background-color: $blue-300;
+    border-top: 12px solid $blue-200;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        color: $white;
+    }
+
+    p {
+        margin: 0;
+        margin-bottom: 48px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: $white;
+    }
+
+    &-form {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 115px;
+        column-gap: 32px;
+        margin-left: 245px;
+        margin-right: 259px;
+        padding-bottom: 106px;
+
+        input {
+            border: 1px solid $white;
+            border-radius: 6px;
+            overflow: hidden;
+            background-color: $blue-300;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: $white;
+            padding-left: 16px;
+        }
+    }
+}

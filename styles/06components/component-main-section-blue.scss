@@ -1,0 +1,13 @@
+@import '../01settings/settings-colors.scss';
+
+.c-main-section-blue {
+    background-color: $blue-400;
+    
+    display: grid;
+    grid-template-rows: 24px 88px;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 24px;
+    padding-bottom: 104px;
+}
+

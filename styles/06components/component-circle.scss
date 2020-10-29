@@ -1,0 +1,14 @@
+.c-circle {
+    /* Create the circle */
+    width: 12px;
+    height: 12px;
+    //border: 10px solid black;
+    border-radius: 50%;
+    /* Halve the circle */
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    /* Rotate the circle */
+    transform: rotate(0deg);
+    box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.14), inset 0px 2px 2px rgba(0, 0, 0, 0.12), inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+
+}

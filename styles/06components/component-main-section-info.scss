@@ -1,0 +1,81 @@
+@import '../01settings/settings-colors.scss';
+
+.c-main-section-info {
+    margin-bottom: 98px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 739px 440px;
+    justify-content: space-between;
+
+    &-paragraph {
+        margin-top: 36px;
+        color: $gray-700;
+        font-family: Lato;
+    }
+
+    &-images {
+        position: relative;
+        margin-top: 75px;
+        height: 248px;
+    }
+
+    &-image-second {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &-questions {
+        display: grid;
+        justify-content: space-between;
+        grid-template-rows: 202px;
+        grid-template-columns: 52% 38%;
+        margin-bottom: 64px;
+    }
+}
+
+.c-main-section-info-questions-people {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 17% 1fr;
+    padding-right: 88px;
+    border-right: 10px dotted $secondary-100;
+
+    h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0;
+        color: $gray-700;
+    }
+
+    p {
+        color: $gray-700;
+    }
+}
+
+.c-main-section-info-questions-puzzle {
+    img {
+        position: relative;
+        bottom: 42px;
+    }
+
+    section {
+        margin-left: 64px;
+        position: relative;
+        bottom: 42px;
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 0;
+        color: $gray-700;
+    }
+
+    p {
+        color: $gray-700;
+    }
+}

@@ -1,0 +1,28 @@
+.o-all-elements {
+  width: 100wv;
+  display: grid;
+  grid-template-rows: 74px 1fr 312px;
+  background-color: #ffffff;
+}
+
+.o-header-container {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+.o-header-section-images {
+  display: grid;
+  grid-template-columns: 12px 138px;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.o-footer-container {
+  background-color: #565656;
+  border-top: 12px solid #919191;
+  z-index: 1;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
